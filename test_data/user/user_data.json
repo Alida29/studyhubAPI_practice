@@ -1,0 +1,36 @@
+{
+  "data":
+  {
+    "valid_user_1":
+    {
+      "first_name": "John",
+      "last_name": "Tester",
+      "email": "johntester@gmail.com",
+      "user_name": "john-test",
+      "password": "password1234",
+      "confirm_password": "password1234",
+      "sex": "male"
+    },
+    "valid_user_2":
+    {
+      "first_name": "Ali",
+      "last_name": "Testing",
+      "email": "alitesting@gmail.com",
+      "user_name": "ali-test",
+      "password": "password12345",
+      "confirm_password": "password12345",
+      "sex": "female"
+    },
+    "invalid_email":
+    {
+      "first_name": "John",
+      "last_name": "Tester",
+      "email": "johntester#gmail.com",
+      "user_name": "john-test",
+      "password": "password1234",
+      "confirm_password": "password1234",
+      "sex": "male"
+    }
+  }
+
+}
