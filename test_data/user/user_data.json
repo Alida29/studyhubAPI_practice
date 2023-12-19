@@ -30,6 +30,126 @@
       "password": "password1234",
       "confirm_password": "password1234",
       "sex": "male"
+    },
+    "no_email":
+    {
+      "first_name": "John",
+      "last_name": "Tester",
+      "email": " ",
+      "user_name": "john-test",
+      "password": "password1234",
+      "confirm_password": "password1234",
+      "sex": "male"
+    },
+    "no_first_name":
+    {
+      "first_name": " ",
+      "last_name": "Tester",
+      "email": "johntester@gmail.com",
+      "user_name": "john-test",
+      "password": "password1234",
+      "confirm_password": "password1234",
+      "sex": "male"
+    },
+    "diff_confirm_pwd":
+    {
+      "first_name": "John",
+      "last_name": "Tester",
+      "email": "johntester@gmail.com",
+      "user_name": "john-test",
+      "password": "password1234",
+      "confirm_password": "password12345",
+      "sex": "male"
+    },
+    "other_sex":
+    {
+      "first_name": "John",
+      "last_name": "Tester",
+      "email": "johntester@gmail.com",
+      "user_name": "john-test",
+      "password": "password1234",
+      "confirm_password": "password1234",
+      "sex": "other"
+    },
+    "no_sex":
+    {
+      "first_name": "John",
+      "last_name": "Tester",
+      "email": "johntester@gmail.com",
+      "user_name": "john-test",
+      "password": "password1234",
+      "confirm_password": "password1234",
+      "sex": " "
+    },
+    "no_pwd_and_conf_pwd":
+    {
+      "first_name": "John",
+      "last_name": "Tester",
+      "email": "johntester@gmail.com",
+      "user_name": "john-test",
+      "password": " ",
+      "confirm_password": " ",
+      "sex": "other"
+    },
+    "no_conf_pwd":
+    {
+      "first_name": "John",
+      "last_name": "Tester",
+      "email": "johntester@gmail.com",
+      "user_name": "john-test",
+      "password": " ",
+      "confirm_password": " ",
+      "sex": "other"
+    },
+    "no_pwd":
+    {
+      "first_name": "John",
+      "last_name": "Tester",
+      "email": "johntester@gmail.com",
+      "user_name": "john-test",
+      "password": " ",
+      "confirm_password": " ",
+      "sex": "other"
+    },
+    "same_username_1":
+    {
+      "first_name": "John",
+      "last_name": "Tester",
+      "email": "johntester@gmail.com",
+      "user_name": "john-test",
+      "password": "password1234",
+      "confirm_password": "password1234",
+      "sex": "male"
+    },
+    "same_username_2":
+    {
+      "first_name": "Ali",
+      "last_name": "Testing",
+      "email": "alitesting@gmail.com",
+      "user_name": "john-test",
+      "password": "password12345",
+      "confirm_password": "password12345",
+      "sex": "female"
+    },
+    "same_email_1":
+    {
+      "first_name": "John",
+      "last_name": "Tester",
+      "email": "johntester@gmail.com",
+      "user_name": "john-test",
+      "password": "password1234",
+      "confirm_password": "password1234",
+      "sex": "male"
+    },
+    "same_email_2":
+    {
+      "first_name": "Ali",
+      "last_name": "Testing",
+      "email": "johntester@gmail.com",
+      "user_name": "ali-testing",
+      "password": "password12345",
+      "confirm_password": "password12345",
+      "sex": "female"
     }
   }
 
