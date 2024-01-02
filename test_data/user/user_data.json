@@ -35,7 +35,7 @@
     {
       "first_name": "John",
       "last_name": "Tester",
-      "email": " ",
+      "email":"",
       "user_name": "john-test",
       "password": "password1234",
       "confirm_password": "password1234",
@@ -43,7 +43,7 @@
     },
     "no_first_name":
     {
-      "first_name": " ",
+      "first_name": "",
       "last_name": "Tester",
       "email": "johntester@gmail.com",
       "user_name": "john-test",
@@ -79,7 +79,7 @@
       "user_name": "john-test",
       "password": "password1234",
       "confirm_password": "password1234",
-      "sex": " "
+      "sex": ""
     },
     "no_pwd_and_conf_pwd":
     {
@@ -87,8 +87,8 @@
       "last_name": "Tester",
       "email": "johntester@gmail.com",
       "user_name": "john-test",
-      "password": " ",
-      "confirm_password": " ",
+      "password": "",
+      "confirm_password": "",
       "sex": "other"
     },
     "no_conf_pwd":
@@ -97,8 +97,8 @@
       "last_name": "Tester",
       "email": "johntester@gmail.com",
       "user_name": "john-test",
-      "password": " ",
-      "confirm_password": " ",
+      "password": "password1234",
+      "confirm_password": "",
       "sex": "other"
     },
     "no_pwd":
@@ -107,8 +107,8 @@
       "last_name": "Tester",
       "email": "johntester@gmail.com",
       "user_name": "john-test",
-      "password": " ",
-      "confirm_password": " ",
+      "password": "",
+      "confirm_password": "password1234",
       "sex": "other"
     },
     "same_username_1":
