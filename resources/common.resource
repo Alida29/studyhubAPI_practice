@@ -55,6 +55,14 @@ Register a user
     post request      url=https://study-hub-backend.onrender.com/register
     ...               payload=${payload}
 
+Login a user
+    [Arguments]       ${payload}    ${test_data}        ${key}
+    ${payload}        Setup payload data
+    ...               test_data=${test_data}
+    ...               key=${key}
+    post request      url=https://study-hub-backend.onrender.com/login
+    ...               payload=${payload}
+
 
 
 

@@ -1,0 +1,29 @@
+{
+  "data": {
+    "valid_login":
+    {
+      "email": "johntester@gmail.com",
+      "password": "password1234"
+    },
+    "no_email_login":
+    {
+      "email": "",
+      "password": "password1234"
+    },
+    "no_pwd_login":
+    {
+      "email": "johntester@gmail.com",
+      "password": ""
+    },
+      "wrong_email":
+    {
+      "email": "johntesters@gmail.com",
+      "password": "password1234"
+    },
+    "wrong_pwd":
+    {
+      "email": "johntester@gmail.com",
+      "password": "password123455"
+    }
+  }
+}
