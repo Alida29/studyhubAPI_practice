@@ -10,7 +10,7 @@ TC1 Ask a question when signed in
     ...               test_data=question
     ...               key=valid_question
     ${auth_id}      Prepare user for question
-    ...             user=valid_user_1       email=johntester@gmail.com      password=password1234
+    ...             user=valid_user_2       email=alitesting@gmail.com     password=password12345
     ${prepare_auth}     Create Dictionary
     ...                 auth_id=${auth_id}
     ${payload}        Setup payload data
@@ -25,4 +25,5 @@ TC1 Ask a question when signed in
     ...          Delete a question
     ...          question_id=${question['question_id']}
     ...          auth_id=${auth_id}         AND
-    ...          Delete a user          user_name=john-test
+    ...          Delete a user          user_name=ali-test
+
