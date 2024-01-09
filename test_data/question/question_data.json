@@ -8,6 +8,23 @@
     "invalid_question":
     {
       "questio": "What is the capital of Cameroon?"
+    },
+    "empty_question":
+    {
+      "question": ""
+    },
+    "no_auth_question":
+    {
+      "question": "What is the capital of Cameroon?"
+    },
+    "random_auth_question":
+    {
+      "question": "What is the capital of Cameroon?"
+    },
+    "no_auth_no_data_question":
+    {
+      "question": ""
     }
   }
 }
+
